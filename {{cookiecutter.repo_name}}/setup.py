@@ -14,9 +14,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
-requirements = [
-    # TODO: put package requirements here
-]
+requirements = open("requirements.txt").read()
 
 test_requirements = [
     # TODO: put package test requirements here
@@ -48,7 +46,7 @@ setup(
 
     include_package_data=True,
     install_requires=requirements,
-    license="BSD",
+    license="WTFPL",
     zip_safe=False,
     keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
