@@ -1,6 +1,8 @@
 # coding: utf-8
 
 import argparse
+from {{cookiecutter.repo_name}} import version
+
 import logging
 logger = logging.getLogger(__name__)
 
@@ -32,7 +34,7 @@ class App(object):
         args = self.args_parser.parse_args()
         self._configure_loggers(args)
 
-        logger.info("{{cookiecutter.repo_name}} up and running")
+        logger.info("{{cookiecutter.repo_name}} %s up and running", version.current_version)
 
 
 def main():
