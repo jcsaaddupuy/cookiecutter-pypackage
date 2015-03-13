@@ -11,7 +11,7 @@
 
 {{ cookiecutter.project_short_description}}
 
-* Free software: BSD license
+* Free software as in free speech and in free beer : WTFPL license
 * Documentation: https://{{ cookiecutter.repo_name }}.readthedocs.org.
 
 Features
