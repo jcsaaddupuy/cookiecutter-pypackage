@@ -35,6 +35,17 @@ setup(
     ],
     package_dir={'{{ cookiecutter.repo_name }}':
                  '{{ cookiecutter.repo_name }}'},
+
+
+    # configure the default command line entry point.
+    entry_points={
+        'console_scripts': [
+            '{{cookiecutter.repo_name}}-cli = {{cookiecutter.repo_name}}.bin.cli:main',
+        ]
+    },
+
+
+
     include_package_data=True,
     install_requires=requirements,
     license="BSD",
