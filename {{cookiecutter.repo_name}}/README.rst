@@ -2,11 +2,13 @@
 {{ cookiecutter.project_name }}
 ===============================
 
-.. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg
-        :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+.. image:: https://pypip.in/version/{{ cookiecutter.repo_name }}/badge.svg
 
-.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.repo_name }}.svg
-        :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}
+.. image:: https://pypip.in/py_versions/{{ cookiecutter.repo_name }}/badge.svg
+
+.. image:: https://pypip.in/wheel/{{ cookiecutter.repo_name }}/badge.svg
+
+.. image:: https://pypip.in/license/{{ cookiecutter.repo_name }}/badge.svg
 
 
 {{ cookiecutter.project_short_description}}
